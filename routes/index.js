@@ -12,10 +12,12 @@ exports.view = function(req, res){
 		"image": "debug.png"
 	}];
 
+
   	labs.push(todaysLab);
   }
 
   res.render('index', {
 	'labs': labs
   });
+  
 };
